@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?><!--
+
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+    KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+
+--><registry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="registry.xsd">
+    
+    <components>
+        <product built="1661514649468" expand="true" features="" offset="10000" platforms="windows linux" status="installed" uid="nb-all" version="15.0.0.220826.0" visible="true">
+            <display-name>
+                <default>Base IDE</default>
+            </display-name>
+            <description>
+                <default>Core Components of an integrated development environment.</default>
+            </description>
+            <icon md5="64483b92ee1623c3c975086b65f92fc6" size="675">
+                <default-uri>file:/C:/Users/zaidk/.nbi/tmp/icon.png</default-uri>
+                <alternate-uri>resource:data/nb-all/15.0.0.220826.0/windows%20linux/icon.png</alternate-uri>
+                <alternate-uri>file:/home/jenkins/jenkins-agent/workspace/netbeans-TLP_netbeans_release150/distpreparation/netbeans/installer/dist/installers/registry-temp/components/products/nb-all/15.0.0.220826/windows%20linux%20/icon.png</alternate-uri>
+            </icon>
+            <properties>
+                <property name="jdk.location">C:\Program Files\Java\jdk-18.0.2.1</property>
+                <property name="installation.location">$N{install}/netbeans-15</property>
+                <property name="minimum.jdk.version">1.8.0</property>
+                <property name="installation.location.macosx">$N{install}/NetBeans/NetBeans 11.app</property>
+                <property name="installation.location.windows">C:\Program Files\NetBeans-15</property>
+                <property name="installation.timestamp">1664206843891</property>
+                <property name="netbeans.summary.message.text">All plugins are up to date.
+
+</property>
+                <property name="desktop.shortcut.location">all.users</property>
+                <property name="start.menu.shortcut.location">all.users</property>
+            </properties>
+            <configuration-logic>
+                <file md5="cb524bedc0cfe8eff36ba946d2a87fa7" size="30038">
+                    <default-uri>file:/C:/Users/zaidk/.nbi/tmp/logic,1.jar</default-uri>
+                    <alternate-uri>resource:data/nb-all/15.0.0.220826.0/windows%20linux/logic/logic,1.jar</alternate-uri>
+                    <alternate-uri>file:/home/jenkins/jenkins-agent/workspace/netbeans-TLP_netbeans_release150/distpreparation/netbeans/installer/dist/installers/registry-temp/components/products/nb-all/15.0.0.220826/windows%20linux%20/logic/logic,1.jar</alternate-uri>
+                </file>
+            </configuration-logic>
+            <installation-data>
+                <file md5="c6bdda9d4b61a052b8f050159d2258b3" size="132410678">
+                    <default-uri>resource:data/nb-all/15.0.0.220826.0/windows%20linux/data/data,1.jar</default-uri>
+                    <alternate-uri>file:/home/jenkins/jenkins-agent/workspace/netbeans-TLP_netbeans_release150/distpreparation/netbeans/installer/dist/installers/registry-temp/components/products/nb-all/15.0.0.220826/windows%20linux%20/data/data,1.jar</alternate-uri>
+                </file>
+            </installation-data>
+            <system-requirements>
+                <disk-space>245921287</disk-space>
+            </system-requirements>
+            <dependencies>
+                <install-after uid="jdk"/>
+                <install-after uid="jre-nested"/>
+            </dependencies>
+        </product>
+        <product built="1661514660103" expand="false" features="" offset="12500" platforms="windows linux" status="installed" uid="nb-extide" version="15.0.0.220826.0" visible="true">
+            <display-name>
+                <default>Extended IDE</default>
+            </display-name>
+            <description>
+                <default>Additional components of an integrated development environment.</default>
+            </description>
+            <icon md5="64483b92ee1623c3c975086b65f92fc6" size="675">
+                <default-uri>file:/C:/Users/zaidk/.nbi/tmp/icon.png.0</default-uri>
+                <alternate-uri>resource:data/nb-extide/15.0.0.220826.0/windows%20linux/icon.png</alternate-uri>
+                <alternate-uri>file:/home/jenkins/jenkins-agent/workspace/netbeans-TLP_netbeans_release150/distpreparation/netbeans/installer/dist/installers/registry-temp/components/products/nb-extide/15.0.0.220826/windows%20linux/icon.png</alternate-uri>
+            </icon>
+            <properties>
+                <property name="installation.location">C:\Program Files\NetBeans-15</property>
+                <property name="show-in-wizard">false</property>
+            </properties>
+            <configuration-logic>
+                <file md5="59332b99ca6645eb9663f8c78ff85d27" size="2440">
+                    <default-uri>file:/C:/Users/zaidk/.nbi/tmp/logic,1.jar.0</default-uri>
+                    <alternate-uri>resource:data/nb-extide/15.0.0.220826.0/windows%20linux/logic/logic,1.jar</alternate-uri>
+                    <alternate-uri>file:/home/jenkins/jenkins-agent/workspace/netbeans-TLP_netbeans_release150/distpreparation/netbeans/installer/dist/installers/registry-temp/components/products/nb-extide/15.0.0.220826/windows%20linux/logic/logic,1.jar</alternate-uri>
+                </file>
+            </configuration-logic>
+            <installation-data>
+                <file md5="ada76cd72f355107fd3411d1dfb38ae5" size="329674">
+                    <default-uri>resource:data/nb-extide/15.0.0.220826.0/windows%20linux/data/data,1.jar</default-uri>
+                    <alternate-uri>file:/home/jenkins/jenkins-agent/workspace/netbeans-TLP_netbeans_release150/distpreparation/netbeans/installer/dist/installers/registry-temp/components/products/nb-extide/15.0.0.220826/windows%20linux/data/data,1.jar</alternate-uri>
+                </file>
+            </installation-data>
+            <system-requirements>
+                <disk-space>1350395</disk-space>
+            </system-requirements>
+            <dependencies>
+                <requirement uid="nb-all" version-lower="15.0.0.220826.0" version-upper="15.0.0.220826.0"/>
+                <install-after uid="jre-nested"/>
+            </dependencies>
+        </product>
+        <product built="1661514689160" expand="false" features="" offset="20000" platforms="windows linux" status="installed" uid="nb-javase" version="15.0.0.220826.0" visible="true">
+            <display-name>
+                <default>Java SE</default>
+            </display-name>
+            <description>
+                <default>Essential tools for programming in Java, including an editor, debugger, profiler, refactoring support, and award winning drag-and-drop GUI design tool (formerly known as Project Matisse).</default>
+            </description>
+            <icon md5="64483b92ee1623c3c975086b65f92fc6" size="675">
+                <default-uri>file:/C:/Users/zaidk/.nbi/tmp/icon.png.1</default-uri>
+                <alternate-uri>resource:data/nb-javase/15.0.0.220826.0/windows%20linux/icon.png</alternate-uri>
+                <alternate-uri>file:/home/jenkins/jenkins-agent/workspace/netbeans-TLP_netbeans_release150/distpreparation/netbeans/installer/dist/installers/registry-temp/components/products/nb-javase/15.0.0.220826/windows%20linux/icon.png</alternate-uri>
+            </icon>
+            <properties>
+                <property name="installation.location">C:\Program Files\NetBeans-15</property>
+                <property name="jre.allowed">false</property>
+            </properties>
+            <configuration-logic>
+                <file md5="74b94d2463830a7bad69e2d1191d668f" size="4659">
+                    <default-uri>file:/C:/Users/zaidk/.nbi/tmp/logic,1.jar.2</default-uri>
+                    <alternate-uri>resource:data/nb-javase/15.0.0.220826.0/windows%20linux/logic/logic,1.jar</alternate-uri>
+                    <alternate-uri>file:/home/jenkins/jenkins-agent/workspace/netbeans-TLP_netbeans_release150/distpreparation/netbeans/installer/dist/installers/registry-temp/components/products/nb-javase/15.0.0.220826/windows%20linux/logic/logic,1.jar</alternate-uri>
+                </file>
+            </configuration-logic>
+            <installation-data>
+                <file md5="138c5a00557607884e2fa5892e924497" size="102430045">
+                    <default-uri>resource:data/nb-javase/15.0.0.220826.0/windows%20linux/data/data,1.jar</default-uri>
+                    <alternate-uri>file:/home/jenkins/jenkins-agent/workspace/netbeans-TLP_netbeans_release150/distpreparation/netbeans/installer/dist/installers/registry-temp/components/products/nb-javase/15.0.0.220826/windows%20linux/data/data,1.jar</alternate-uri>
+                </file>
+            </installation-data>
+            <system-requirements>
+                <disk-space>193413749</disk-space>
+            </system-requirements>
+            <dependencies>
+                <requirement uid="nb-all" version-lower="15.0.0.220826.0" version-upper="15.0.0.220826.0"/>
+                <requirement uid="nb-webcommon" version-lower="15.0.0.220826.0" version-upper="15.0.0.220826.0"/>
+            </dependencies>
+        </product>
+        <product built="1661514750327" expand="false" features="" offset="30000" platforms="windows linux" status="installed" uid="nb-javaee" version="15.0.0.220826.0" visible="true">
+            <display-name>
+                <default>Java EE</default>
+            </display-name>
+            <description>
+                <default>Tools for creating Java web and enterprise applications compatible with Java EE specifications. Includes support for servlets, JSPs, tag libraries, Java Server Faces, Java Persistence API, Enterprise Java Beans, JAX-WS and RESTful web services, Spring and Struts.</default>
+            </description>
+            <icon md5="64483b92ee1623c3c975086b65f92fc6" size="675">
+                <default-uri>file:/C:/Users/zaidk/.nbi/tmp/icon.png.2</default-uri>
+                <alternate-uri>resource:data/nb-javaee/15.0.0.220826.0/windows%20linux/icon.png</alternate-uri>
+                <alternate-uri>file:/home/jenkins/jenkins-agent/workspace/netbeans-TLP_netbeans_release150/distpreparation/netbeans/installer/dist/installers/registry-temp/components/products/nb-javaee/15.0.0.220826/windows%20linux/icon.png</alternate-uri>
+            </icon>
+            <properties>
+                <property name="installation.location">C:\Program Files\NetBeans-15</property>
+            </properties>
+            <configuration-logic>
+                <file md5="8f72517eba2fb4ce2f5bffc8d8182b32" size="6161">
+                    <default-uri>file:/C:/Users/zaidk/.nbi/tmp/logic,1.jar.3</default-uri>
+                    <alternate-uri>resource:data/nb-javaee/15.0.0.220826.0/windows%20linux/logic/logic,1.jar</alternate-uri>
+                    <alternate-uri>file:/home/jenkins/jenkins-agent/workspace/netbeans-TLP_netbeans_release150/distpreparation/netbeans/installer/dist/installers/registry-temp/components/products/nb-javaee/15.0.0.220826/windows%20linux/logic/logic,1.jar</alternate-uri>
+                </file>
+            </configuration-logic>
+            <installation-data>
+                <file md5="391f5c89d02ec08810e14d2b99daa2d7" size="178751197">
+                    <default-uri>resource:data/nb-javaee/15.0.0.220826.0/windows%20linux/data/data,1.jar</default-uri>
+                    <alternate-uri>file:/home/jenkins/jenkins-agent/workspace/netbeans-TLP_netbeans_release150/distpreparation/netbeans/installer/dist/installers/registry-temp/components/products/nb-javaee/15.0.0.220826/windows%20linux/data/data,1.jar</alternate-uri>
+                </file>
+            </installation-data>
+            <system-requirements>
+                <disk-space>253432393</disk-space>
+            </system-requirements>
+            <dependencies>
+                <requirement uid="nb-all" version-lower="15.0.0.220826.0" version-upper="15.0.0.220826.0"/>
+                <requirement uid="nb-javase" version-lower="15.0.0.220826.0" version-upper="15.0.0.220826.0"/>
+                <requirement uid="nb-extide" version-lower="15.0.0.220826.0" version-upper="15.0.0.220826.0"/>
+            </dependencies>
+        </product>
+        <product built="1661514718591" expand="false" features="" offset="42500" platforms="windows linux" status="installed" uid="nb-webcommon" version="15.0.0.220826.0" visible="true">
+            <display-name>
+                <default>HTML5/JavaScript</default>
+            </display-name>
+            <description>
+                <default>Tools for developing HTML5 web applications, Node.js applications and Cordova applications, both on the desktop, as well as with iOS and Android devices. Includes HTML5/Javascript application project type, page inspector and visual CSS style editor, editors for HTML, JavaScript, CSS, SASS and LESS, and a JavaScript debugger.</default>
+            </description>
+            <icon md5="64483b92ee1623c3c975086b65f92fc6" size="675">
+                <default-uri>file:/C:/Users/zaidk/.nbi/tmp/icon.png.3</default-uri>
+                <alternate-uri>resource:data/nb-webcommon/15.0.0.220826.0/windows%20linux/icon.png</alternate-uri>
+                <alternate-uri>file:/home/jenkins/jenkins-agent/workspace/netbeans-TLP_netbeans_release150/distpreparation/netbeans/installer/dist/installers/registry-temp/components/products/nb-webcommon/15.0.0.220826/windows%20linux/icon.png</alternate-uri>
+            </icon>
+            <properties>
+                <property name="installation.location">C:\Program Files\NetBeans-15</property>
+            </properties>
+            <configuration-logic>
+                <file md5="494c4e6524e187e850c0866bd29f4a51" size="2426">
+                    <default-uri>file:/C:/Users/zaidk/.nbi/tmp/logic,1.jar.1</default-uri>
+                    <alternate-uri>resource:data/nb-webcommon/15.0.0.220826.0/windows%20linux/logic/logic,1.jar</alternate-uri>
+                    <alternate-uri>file:/home/jenkins/jenkins-agent/workspace/netbeans-TLP_netbeans_release150/distpreparation/netbeans/installer/dist/installers/registry-temp/components/products/nb-webcommon/15.0.0.220826/windows%20linux/logic/logic,1.jar</alternate-uri>
+                </file>
+            </configuration-logic>
+            <installation-data>
+                <file md5="71066ce21dd6cd5da56dbd9de1d5edb8" size="34356453">
+                    <default-uri>resource:data/nb-webcommon/15.0.0.220826.0/windows%20linux/data/data,1.jar</default-uri>
+                    <alternate-uri>file:/home/jenkins/jenkins-agent/workspace/netbeans-TLP_netbeans_release150/distpreparation/netbeans/installer/dist/installers/registry-temp/components/products/nb-webcommon/15.0.0.220826/windows%20linux/data/data,1.jar</alternate-uri>
+                </file>
+            </installation-data>
+            <system-requirements>
+                <disk-space>113548245</disk-space>
+            </system-requirements>
+            <dependencies>
+                <requirement uid="nb-all" version-lower="15.0.0.220826.0" version-upper="15.0.0.220826.0"/>
+                <requirement uid="nb-extide" version-lower="15.0.0.220826.0" version-upper="15.0.0.220826.0"/>
+                <install-after uid="jre-nested"/>
+            </dependencies>
+        </product>
+        <product built="1661514769484" expand="false" features="" offset="45000" platforms="windows linux" status="installed" uid="nb-php" version="15.0.0.220826.0" visible="true">
+            <display-name>
+                <default>PHP</default>
+            </display-name>
+            <description>
+                <default>Tools for developing PHP applications, including PHP editor and debugger, project management, integration with Apache server, support for MySQL and other databases, FTP upload and download, JavaScript support and other features.</default>
+            </description>
+            <icon md5="64483b92ee1623c3c975086b65f92fc6" size="675">
+                <default-uri>file:/C:/Users/zaidk/.nbi/tmp/icon.png.4</default-uri>
+                <alternate-uri>resource:data/nb-php/15.0.0.220826.0/windows%20linux/icon.png</alternate-uri>
+                <alternate-uri>file:/home/jenkins/jenkins-agent/workspace/netbeans-TLP_netbeans_release150/distpreparation/netbeans/installer/dist/installers/registry-temp/components/products/nb-php/15.0.0.220826/windows%20linux/icon.png</alternate-uri>
+            </icon>
+            <properties>
+                <property name="installation.location">C:\Program Files\NetBeans-15</property>
+            </properties>
+            <configuration-logic>
+                <file md5="1b3376bd148503586827b99a844ba82f" size="2380">
+                    <default-uri>file:/C:/Users/zaidk/.nbi/tmp/logic,1.jar.4</default-uri>
+                    <alternate-uri>resource:data/nb-php/15.0.0.220826.0/windows%20linux/logic/logic,1.jar</alternate-uri>
+                    <alternate-uri>file:/home/jenkins/jenkins-agent/workspace/netbeans-TLP_netbeans_release150/distpreparation/netbeans/installer/dist/installers/registry-temp/components/products/nb-php/15.0.0.220826/windows%20linux/logic/logic,1.jar</alternate-uri>
+                </file>
+            </configuration-logic>
+            <installation-data>
+                <file md5="a6c5552ab69a05b402b8e0513e03b662" size="6925290">
+                    <default-uri>resource:data/nb-php/15.0.0.220826.0/windows%20linux/data/data,1.jar</default-uri>
+                    <alternate-uri>file:/home/jenkins/jenkins-agent/workspace/netbeans-TLP_netbeans_release150/distpreparation/netbeans/installer/dist/installers/registry-temp/components/products/nb-php/15.0.0.220826/windows%20linux/data/data,1.jar</alternate-uri>
+                </file>
+            </installation-data>
+            <system-requirements>
+                <disk-space>22222964</disk-space>
+            </system-requirements>
+            <dependencies>
+                <requirement uid="nb-all" version-lower="15.0.0.220826.0" version-upper="15.0.0.220826.0"/>
+                <requirement uid="nb-webcommon" version-lower="15.0.0.220826.0" version-upper="15.0.0.220826.0"/>
+                <install-after uid="jre-nested"/>
+            </dependencies>
+        </product>
+    </components>
+</registry>

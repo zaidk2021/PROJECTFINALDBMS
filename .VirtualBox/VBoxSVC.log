@@ -1,0 +1,158 @@
+00:00:00.002644 main     VirtualBox COM Server 7.0.6 r155176 win.amd64 (Jan 11 2023 16:38:38) release log
+00:00:00.002645 main     Log opened 2023-05-10T21:08:27.572763500Z
+00:00:00.002646 main     Build Type: release
+00:00:00.002657 main     OS Product: Windows 11
+00:00:00.002658 main     OS Release: 10.0.22621
+00:00:00.002658 main     OS Service Pack: 
+00:00:00.109134 main     DMI Product Name: Inspiron 14 5410
+00:00:00.119775 main     DMI Product Version: 
+00:00:00.119783 main     Firmware type: UEFI
+00:00:00.120073 main     Secure Boot: VERR_PRIVILEGE_NOT_HELD
+00:00:00.120088 main     Host RAM: 16122MB (15.7GB) total, 3694MB (3.6GB) available
+00:00:00.120091 main     Executable: C:\Program Files\Oracle\VirtualBox\VBoxSVC.exe
+00:00:00.120092 main     Process ID: 14940
+00:00:00.120092 main     Package type: WINDOWS_64BITS_GENERIC
+00:00:00.203131          VirtualBox: object creation starts
+00:00:00.203374          Home directory: 'C:\Users\zaidk\.VirtualBox'
+00:00:00.203514          Installed Drivers:
+00:00:00.206995            C:\WINDOWS\system32\DRIVERS\VBoxNetLwf.sys (Version: 7.0.6.5176)
+00:00:00.207698            C:\WINDOWS\system32\DRIVERS\VBoxUSBMon.sys (Version: 7.0.6.5176)
+00:00:00.208698            C:\WINDOWS\system32\DRIVERS\VBoxSup.sys (Version: 7.0.6.5176)
+00:00:00.209964            C:\WINDOWS\system32\DRIVERS\VBoxNetAdp6.sys (Version: 7.0.6.5176)
+00:00:00.218882          Loading settings file "C:\Users\zaidk\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.222896          usbLibGetDevices: Starting USB device enumeration
+00:00:00.257813          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&338c292e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 6
+00:00:00.258135          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&338c292e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+00:00:00.259653          usbLibGetDevices: Found 2 USB devices, 0 captured
+00:00:00.259800          USB: Unknown USB device detected (idVendor: 0x0c45, idProduct: 0x6a10)
+00:00:00.259943          USB: Unknown USB device detected (idVendor: 0x8087, idProduct: 0x0026)
+00:00:00.373356          netIfIsWireless: CreateFile on '\\.\{C84E1251-3C14-47C5-B8BF-5D3E5374EAF5}' failed with rcWin=2 (0x2) - ignoring
+00:00:00.376753          HostDnsMonitor: initializing
+00:00:00.384075          HostDnsMonitor: updating information
+00:00:00.384131          HostDnsMonitor: old information
+00:00:00.384132            no server entries
+00:00:00.384133            no domain set
+00:00:00.384134            no search string entries
+00:00:00.384134          HostDnsMonitor: new information
+00:00:00.384134            server 1: 8.8.8.8
+00:00:00.384135            server 2: 4.2.2.2
+00:00:00.384135            no domain set
+00:00:00.384136            no search string entries
+00:00:00.424559          VD: VDInit finished with VINF_SUCCESS
+00:00:00.428393          Loading settings file "C:\Users\zaidk\VirtualBox VMs\Ubuntu 22.04\Ubuntu 22.04.vbox" with version "1.19-windows"
+00:00:00.430675          VirtualBox: object created
+00:00:00.490033          Saving settings file "C:\Users\zaidk\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.492529          Finished saving settings file "C:\Users\zaidk\.VirtualBox\VirtualBox.xml"
+00:00:00.492665          Saving settings file "C:\Users\zaidk\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.494891          Finished saving settings file "C:\Users\zaidk\.VirtualBox\VirtualBox.xml"
+00:00:00.495113          Saving settings file "C:\Users\zaidk\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.497336          Finished saving settings file "C:\Users\zaidk\.VirtualBox\VirtualBox.xml"
+00:00:01.294388          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:11.834073          Launched VM: 648271568 pid: 36772 (0x8fa4) frontend: GUI/Qt name: Ubuntu 22.04
+00:00:11.856291          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:18.058492          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:19.200785          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:00:26.690068          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:00:26.971807          netIfIsWireless: CreateFile on '\\.\{C84E1251-3C14-47C5-B8BF-5D3E5374EAF5}' failed with rcWin=2 (0x2) - ignoring
+00:00:27.075799          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Starting)}, preserve=false aResultDetail=0
+00:00:27.135757          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={The machine is not mutable or saved (state is Starting)}, preserve=false aResultDetail=0
+00:00:29.945768          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:00:29.946010          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:00:30.000017          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:41:23.463747 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:41:23.478902 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&338c292e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 6
+00:41:23.479402 USBPROXY usbLibGetDevices: Found 2 USB devices, 0 captured
+00:42:47.073469 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:42:47.102467 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&338c292e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 6
+00:42:47.102644 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&338c292e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+00:42:47.102947 USBPROXY usbLibGetDevices: Found 2 USB devices, 0 captured
+01:07:44.512288 dns-monitor HostDnsMonitor: updating information
+01:07:44.512388 dns-monitor HostDnsMonitor: unchanged
+07:15:30.730545 MainPower Host suspending: Paused 1 VMs
+07:15:30.922691          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Paused)}, preserve=false aResultDetail=0
+07:15:30.930439 dns-monitor HostDnsMonitor: updating information
+07:15:30.930467 dns-monitor HostDnsMonitor: unchanged
+12:17:28.512309 MainPower Host resumed: Resumed 1 VMs
+12:17:30.493363 USBPROXY usbLibGetDevices: Starting USB device enumeration
+12:17:30.649073          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+12:17:32.183477 dns-monitor HostDnsMonitor: updating information
+12:17:32.183538 dns-monitor HostDnsMonitor: unchanged
+12:17:32.818574 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&338c292e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 6
+12:17:32.869284 USBPROXY usbLibGetDevices: Found 2 USB devices, 0 captured
+12:17:37.305711 USBPROXY usbLibGetDevices: Starting USB device enumeration
+12:17:37.368174 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&338c292e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 6
+12:17:37.368830 USBPROXY usbLibGetDevices: Found 2 USB devices, 0 captured
+12:18:31.521647 dns-monitor HostDnsMonitor: updating information
+12:18:31.521712 dns-monitor HostDnsMonitor: unchanged
+12:18:51.858485 USBPROXY usbLibGetDevices: Starting USB device enumeration
+12:18:51.887776 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&338c292e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 6
+12:18:51.887949 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&338c292e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+12:18:51.888149 USBPROXY usbLibGetDevices: Found 2 USB devices, 0 captured
+12:19:18.787700 USBPROXY usbLibGetDevices: Starting USB device enumeration
+12:19:18.815645 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&338c292e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 6
+12:19:18.815945 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&338c292e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+12:19:18.816106 USBPROXY usbLibGetDevices: Found 2 USB devices, 0 captured
+12:19:19.909696 USBPROXY usbLibGetDevices: Starting USB device enumeration
+12:19:19.937258 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&338c292e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 6
+12:19:19.937480 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&338c292e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+12:19:19.937645 USBPROXY usbLibGetDevices: Found 2 USB devices, 0 captured
+12:53:47.662471 USBPROXY usbLibGetDevices: Starting USB device enumeration
+12:53:47.688537 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&338c292e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 6
+12:53:47.688635 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&338c292e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+12:53:47.688793 USBPROXY usbLibGetDevices: Found 2 USB devices, 0 captured
+14:03:46.587846 dns-monitor HostDnsMonitor: updating information
+14:03:46.587923 dns-monitor HostDnsMonitor: unchanged
+14:34:01.215820 dns-monitor HostDnsMonitor: updating information
+14:34:01.215971 dns-monitor HostDnsMonitor: unchanged
+14:34:03.340785 USBPROXY usbLibGetDevices: Starting USB device enumeration
+14:34:03.434902 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&338c292e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 6
+14:34:03.437947 USBPROXY usbLibGetDevices: Found 2 USB devices, 0 captured
+14:34:06.218411 dns-monitor HostDnsMonitor: updating information
+14:34:06.218450 dns-monitor HostDnsMonitor: unchanged
+14:34:45.691568 USBPROXY usbLibGetDevices: Starting USB device enumeration
+14:34:45.717938 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&338c292e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 6
+14:34:45.718043 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&338c292e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+14:34:45.718188 USBPROXY usbLibGetDevices: Found 2 USB devices, 0 captured
+16:19:12.911979 USBPROXY usbLibGetDevices: Starting USB device enumeration
+16:19:13.169893 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&338c292e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 6
+16:19:13.221156 USBPROXY usbLibGetDevices: Found 2 USB devices, 0 captured
+16:19:56.851667 USBPROXY usbLibGetDevices: Starting USB device enumeration
+16:19:56.879728 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&338c292e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 6
+16:19:56.879823 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&338c292e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+16:19:56.879994 USBPROXY usbLibGetDevices: Found 2 USB devices, 0 captured
+16:32:41.447705 dns-monitor HostDnsMonitor: updating information
+16:32:41.447730 dns-monitor HostDnsMonitor: unchanged
+16:33:06.638143 dns-monitor HostDnsMonitor: updating information
+16:33:06.638167 dns-monitor HostDnsMonitor: unchanged
+16:38:07.026671 dns-monitor HostDnsMonitor: updating information
+16:38:07.026798 dns-monitor HostDnsMonitor: unchanged
+16:42:28.576554 dns-monitor HostDnsMonitor: updating information
+16:42:28.576599 dns-monitor HostDnsMonitor: unchanged
+16:44:28.764414 dns-monitor HostDnsMonitor: updating information
+16:44:28.764466 dns-monitor HostDnsMonitor: unchanged
+16:46:59.021387 dns-monitor HostDnsMonitor: updating information
+16:46:59.021424 dns-monitor HostDnsMonitor: unchanged
+16:47:47.403467 dns-monitor HostDnsMonitor: updating information
+16:47:47.403520 dns-monitor HostDnsMonitor: unchanged
+16:48:12.510501 dns-monitor HostDnsMonitor: updating information
+16:48:12.510536 dns-monitor HostDnsMonitor: unchanged
+16:48:41.865263 dns-monitor HostDnsMonitor: updating information
+16:48:41.865316 dns-monitor HostDnsMonitor: unchanged
+16:49:41.898743 dns-monitor HostDnsMonitor: updating information
+16:49:41.898779 dns-monitor HostDnsMonitor: unchanged
+16:50:15.627706 dns-monitor HostDnsMonitor: updating information
+16:50:15.627730 dns-monitor HostDnsMonitor: unchanged
+16:51:32.224755 dns-monitor HostDnsMonitor: updating information
+16:51:32.224809 dns-monitor HostDnsMonitor: unchanged
+16:55:41.950805 dns-monitor HostDnsMonitor: updating information
+16:55:41.950857 dns-monitor HostDnsMonitor: unchanged
+17:08:15.628689          Saving settings file "C:\Users\zaidk\VirtualBox VMs\Ubuntu 22.04\Ubuntu 22.04.vbox" with version "1.19-windows"
+17:08:15.633051          Finished saving settings file "C:\Users\zaidk\VirtualBox VMs\Ubuntu 22.04\Ubuntu 22.04.vbox"
+17:08:15.718885          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+17:08:16.669301          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+17:08:26.334203 main     VirtualBox: object deletion starts
+17:08:26.335209 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium 'C:\Users\zaidk\VirtualBox VMs\Ubuntu 22.04\Ubuntu 22.04.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+17:08:26.350001 main     HostDnsMonitor: shutting down ...
+17:08:26.350240 main     HostDnsMonitor: shut down
+17:08:26.355556 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={7682d5eb-f00e-44f1-8ca2-99d08b1cd607} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+17:08:26.356586 main     VirtualBox: object deleted
