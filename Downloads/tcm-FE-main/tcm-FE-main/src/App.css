@@ -1,0 +1,73 @@
+.App {
+    text-align: center;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+}
+
+.App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 80px;
+}
+
+.App-header {
+    background-color: #222;
+    height: 100px;
+    padding: 20px;
+    color: white;
+    flex: 0 1 auto;
+}
+
+.App-title {
+    font-size: 1.5em;
+}
+
+.App-intro {
+    font-size: large;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.centered-container {
+    width: 100%;
+    text-align: center;
+}
+
+.inline-element {
+    display: inline-block;
+}
+
+.library-tree-item {
+    display: block;
+}
+
+.library-tree-item-buttons {
+    display: none;
+    position: absolute;
+    right: 20px;
+    top: -1px;
+}
+
+.library-tree-item:hover .library-tree-item-buttons {
+    display: inline-block;
+}
+
+.library-tree-item-label {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+
+/* ###############3 ChangeLog ###############  */
+
+.list-group .list-group-item {
+    padding-left: 0;
+}

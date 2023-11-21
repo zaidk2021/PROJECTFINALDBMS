@@ -1,0 +1,74 @@
+.homepage {
+    margin-top: 10px; /* Move the search bar more towards the top */
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.options-grid {
+    gap: 1rem;
+}
+
+.option-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.option {
+    position: relative;
+    border: 1px solid #3f51b5;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    height: 88px; /* Reduce the height of the boxes */
+}
+
+.option:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 10px rgba(63, 81, 181, 0.5);
+}
+
+.option-icon {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 0.5rem;
+}
+.option-selected {
+    background-color: #3f51b5;
+    color: #ffffff;
+    box-shadow: 0 0 10px rgba(63, 81, 181, 0.5); /* Add a smooth blue shadow */
+}
+
+.arrow-link {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: #3f51b5;
+}
+
+.arrow-icon {
+    font-size: 1.5rem;
+}
+
+.arrow-link {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: lightblue;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.arrow-icon {
+    color: darkblue;
+    font-size: 1.2rem;
+}
+.option h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 20px; /* Decrease the font size */
+    line-height: 1.2; /* Adjust the line height */
+}

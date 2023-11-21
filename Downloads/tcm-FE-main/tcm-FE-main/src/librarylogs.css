@@ -1,0 +1,30 @@
+/* Audit Logs */
+.MuiDataGrid-columnHeaders {
+    background-color: #e3f0fb;
+    border-bottom: 5px solid #0466c8;
+    font-weight: bold;
+}
+.MuiDataGrid-columnHeaderTitle {
+    font-weight: bold !important;
+    color: #0466c8;
+}
+
+.MuiDataGrid-columnHeadersInner {
+    border-bottom: 5px solid #0466c8;
+    background-color: #e3f0fb;
+}
+.MuiDataGrid-row {
+    height: auto;
+}
+.MuiDataGrid-cell {
+    display: none;
+}
+.color-underline-bold {
+    color: #0466c8 !important;
+    text-decoration: underline !important;
+    font-weight: bold !important;
+}
+.color-bold {
+    color: #0466c8 !important;
+    font-weight: bold !important;
+}
