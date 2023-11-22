@@ -68,6 +68,10 @@ In this project we created a UrbanUnity: Residence Community Mgmt with user int
 
 ## Screenshots of the Implementation
 ![LOGINDBS](https://github.com/zaidk2021/PROJECTFINALDBMS/assets/93735014/23d2462f-810e-4467-8d06-a1df4cc10dba)
+![ADMINDBS](https://github.com/zaidk2021/PROJECTFINALDBMS/assets/93735014/7e563f69-9bd2-4282-a87e-08e846e8edae)
+![EMPLOYEEDBS](https://github.com/zaidk2021/PROJECTFINALDBMS/assets/93735014/d3bf421c-d2a6-425a-bb63-b1ac074f17b9)
+![ROOMDBS](https://github.com/zaidk2021/PROJECTFINALDBMS/assets/93735014/ff36ed60-6ef2-4ca5-be6a-513b5e299aa5)
+![FINALCOMPLAINTSDBS](https://github.com/zaidk2021/PROJECTFINALDBMS/assets/93735014/d5b7de86-25de-451e-9b43-f320de331546)
 
 
 
