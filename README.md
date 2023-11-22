@@ -10,7 +10,7 @@ created this project as a part of Database Management System Course.
   - Screenshots of the Interface
 - Tech Stack
 - How to Run
-- Contributors
+
 
 # Project Description
 
