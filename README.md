@@ -68,20 +68,17 @@ In this project we created a UrbanUnity: Residence Community Mgmt with user int
 
 ## Screenshots of the Implementation
 
-### Admin dashboard
+
 
 <kbd><img src="assets/admin.png" alt="admin-dashboard" width="800px"></kbd>
 
-### Owner dashboard
 
 <kbd><img src="assets/owner.png" alt="owner-dashboard" width="800px"></kbd>
-
-### Tenant dashboard
+<kbd><img src="assets/employee.png" alt="employee-dashboard" width="800px"></kbd>
 
 <kbd><img src="assets/tenant.png" alt="tenant-dashboard" width="800px"></kbd>
 
-### Employee dashboard
-
+<kbd><img src="assets/employee.png" alt="employee-dashboard" width="800px"></kbd>
 <kbd><img src="assets/employee.png" alt="employee-dashboard" width="800px"></kbd>
 
 # Tech Stack
