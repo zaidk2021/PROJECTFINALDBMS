@@ -60,11 +60,13 @@ In this project we created a UrbanUnity: Residence Community Mgmt with user int
 
 ## ER Diagram
 
-<kbd><img src="assets/er-diagram.png" width="800px"></kbd>
+
+![FSCHEMA](https://github.com/zaidk2021/PROJECTFINALDBMS/assets/93735014/a391ed5f-9fe4-4ee5-b80d-67c2497e7358)
+
 
 ## Database Schema
 
-<kbd><img src="assets/schema.png" alt="database-schema" width="800px"></kbd>
+![FER](https://github.com/zaidk2021/PROJECTFINALDBMS/assets/93735014/bef8fbfd-86b9-49d8-aab0-71a00013ce1f)
 
 ## Screenshots of the Implementation
 ![LOGINDBS](https://github.com/zaidk2021/PROJECTFINALDBMS/assets/93735014/23d2462f-810e-4467-8d06-a1df4cc10dba)
