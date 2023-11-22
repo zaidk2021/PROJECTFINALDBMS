@@ -52,6 +52,10 @@ In this project we created a UrbanUnity: Residence Community Mgmt with user int
   - Employee can see all the complaints.
   - Employee can see Total number of Complaints
 
+- Visitors
+  -Vistor can register to veiw any block and room number and cureent data and time of registering is noted
+  -All vistor data like Name,Phone number,Block Number,Room Number,Date and Time of Visiting can be seen by the Admin
+
 - All the admins, owners, tenant, employees can login and logout.
 
 ## ER Diagram
