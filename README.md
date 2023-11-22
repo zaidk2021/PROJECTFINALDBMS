@@ -1,6 +1,6 @@
 # UrbanUnity: Residence Community Mgmt
 
-We created this project as a part of Database Management System Course.
+created this project as a part of Database Management System Course.
 # Contents
 - Project Description
 - Basic Structure
@@ -14,7 +14,7 @@ We created this project as a part of Database Management System Course.
 
 # Project Description
 
-In this project we created a UrbanUnity: Residence Community Mgmt with user interface and database support.This project is a part of our curriculum, here we solved the problem of manual entry of data in apartments by creating user interface and storing data in mysql database.
+In this project  created a UrbanUnity: Residence Community Mgmt with user interface and database support.This project is a part of our curriculum, here we solved the problem of manual entry of data in apartments by creating user interface and storing data in mysql database.
 
 # Basic Structure
 
