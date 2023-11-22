@@ -67,18 +67,9 @@ In this project we created a UrbanUnity: Residence Community Mgmt with user int
 <kbd><img src="assets/schema.png" alt="database-schema" width="800px"></kbd>
 
 ## Screenshots of the Implementation
-![LOGINDBS](https://github.com/zaidk2021/PROJECTFINALDBMS/assets/93735014/23d2462f-810e-4467-8d06-a1df4cc10dba){:width=800}
+![LOGINDBS](https://github.com/zaidk2021/PROJECTFINALDBMS/assets/93735014/23d2462f-810e-4467-8d06-a1df4cc10dba)
 
 
-
-
-<kbd><img src="assets/owner.png" alt="owner-dashboard" width="800px"></kbd>
-<kbd><img src="assets/employee.png" alt="employee-dashboard" width="800px"></kbd>
-
-<kbd><img src="assets/tenant.png" alt="tenant-dashboard" width="800px"></kbd>
-
-<kbd><img src="assets/employee.png" alt="employee-dashboard" width="800px"></kbd>
-<kbd><img src="assets/employee.png" alt="employee-dashboard" width="800px"></kbd>
 
 # Tech Stack
 
